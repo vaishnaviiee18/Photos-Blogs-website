@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header{
+    background: url('./img/Layer_bg.jpg') no-repeat center center / cover;
+    width: 100%;
+    height: 683px;
+    position: relative;
+}
+.container .row nav ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 18px;
+    right: 260px;
+}
+.container .row nav{
+    background: url('./img/nav_bg.png');
+    position: absolute; 
+    top: 57px;
+    width: 100%;
+}
+.container .row nav ul li a{
+    padding: 0 25px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+.container .active:active:after{
+    content: "";
+    display: block;
+    max-width:100%;
+    width: 87px;
+    height: 6px;
+    background: #e9696a;
+    margin-top: 16px;
+    margin-bottom: 87px;
+}
+.container ul li:hover:after{
+    content: "";
+    display: block;
+    max-width:100%;
+    width: 87px;
+    height: 6px;
+    background: #e9696a;
+    margin-top: 16px;
+    margin-bottom: 87px;
+}
+.container .row nav .logo{  
+    margin-left: 230px;
+    width:43px;
+    padding:4px;
+}
+.container .row .text{
+    position: absolute;
+    top: 210px;
+    left: 232px;
+}
+.container .row .text h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.container .row .text h2 span{
+    color: #f06d6e;
+}
+.container .row .text p{
+    margin-top: 50px;
+    width: 350px;
+    line-height: 28px;
+    color: #3d3d39;
+    font-size: 14px;
+}
+.container .row .text button{
+    margin-top: 50px;
+    border: #fac81b solid 1px;
+    padding: 19px 30px;
+    background: #f6eee9;
+    font-size: 14px;
+    color: #3d3d39;
+}
+.container .row .text button:hover{
+    background: #fac81b;
+    color: #fff;
+    cursor: pointer;
+}
+section{
+    background: #e66768;
+    width: 100%;
+    height: 657px;
+}
+section .container .row .icon{
+    display: flex;
+    padding-top: 81px;
+    width: 1230px;
+    margin: auto;
+}
+section .container .row .check{
+    color: #fac81b;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 35px;
+    font-weight: 400;
+}
+section .container .row .box{
+    max-width: 1140px;
+    margin: auto;
+}
+section .container .row .box h2{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 36px 0;
+    margin-left: 20px;
+}
+section .container .row .box .txt{
+    color: #fac81b;
+}
+section .container .row .box p{
+    width: 245px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: -37px;
+}
+section .container .row .box button{
+    color: #fff;
+    border: #fac81b solid 1px;
+    background: #e66768;
+    padding: 13px 36px;
+    color: #fff;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+main .box{
+    width: 400px;
+    height: 247px;
+    border: 1px solid black;
+    background: url('./img/photo1.jpg') no-repeat center  center / cover;
+    color: white;
+    display: flex;
+}
+
+main .box .btn button{
+    background: #e6676700;
+    border: none;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+main .box .btn h2{
+    padding-top: 90px;
+    margin-right: 120px;
+}
+main .box .btn p{
+    margin-right: 20px;
+}
+main .box .btn .but{
+    margin-right: 220px;
+}
+main .box .btn{
+    background: url('./img/bg\ box.png');
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+main .box:hover .btn {
+    opacity: 1;
+}
+section .container .row .box button:hover{
+    background: #fac81b;
+}
+main{
+    background: #f6f1ed;
+    position: relative;
+}
+main .container .row .our{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    color: #fac81b;
+    position: absolute;
+    top: 65px;
+    left: 800px;
+}
+main .container .row .icon2{
+    padding: 87px 0;
+}
+main .container .row .icon2 img{
+    margin-left: 1700px;
+    position: absolute;
+    top: 60px;
+}
+.blog{
+    max-width: 1140px;
+    margin: auto;
+}
+.blog .container .row .post{
+    color: #fac81b;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 87px 0;
+    text-align: center;
+}
+.blog .container .row .blog1 h4{
+    color: #e66768;
+    padding: 29px 0 16px 0;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 130px;
+    margin-top: 29px;
+}
+.blog .container .row .blog1 .ic{
+    margin-left: -230px;
+    margin-bottom: -40px;
+}
+.blog .container .row .blog1{
+    padding-left: 19px;
+    margin-bottom: 85px;
+}
+.blog .container .row .blog1 p{
+    width: 355px;
+    font-size: 22px;
+    color: #646464;
+    font-weight: 400;
+    text-align: center;
+}
+.blog .container .row .icon3{
+    display: flex;
+}
+.contact{
+    margin-top: 142px;
+    text-align: center;
+    background: #e66768;
+    height: 780px;
+    width: 1062px;
+    max-width: 1140px;
+    margin: auto;
+    line-height: 33px;
+    position: absolute;
+}
+
+.page2 label input{
+    padding-left: 32px;
+    padding-top: 25px;
+    padding-bottom: 24px; 
+    font-size: 30px;
+}
+.page2 input{
+    background-color: #e66768;
+    color: #fff;
+    border: #fff solid 1px;
+    margin-left: 20px;
+}
+.page2 input ::placeholder{
+    color: #fff;
+}
+.map .container{
+    position: relative;
+    
+}
+.contact-section body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.contact-section {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.contact-section .contact-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+.contact-section .contact-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.contact-section .get-in-touch,
+.contact-section .send-message {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+.contact-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact-section ul li span {
+    font-weight: bold;
+}
+
+.contact-section .social-media {
+    margin-top: 20px;
+}
+
+.contact-section .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.contact-section .social-media img {
+    width: 25px;
+    height: 25px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section form input, 
+.contact-section form textarea {
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section form button {
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background-color: #e68a00;
+}
+
+.contact-section .privacy-note {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.contact-section .contact-map {
+    margin-top: 40px;
+}
+
+footer{
+    margin: auto;
+    background: #3d3d39;
+    color: #b1b1b1;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+.boximg{
+    text-align: center;
+}
+footer .fot ul{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin: auto;
+    padding: 20px 0;
+}
+footer .fot ul li a{
+    list-style: none;
+    margin-left: 47px;
+    text-decoration: none;
+    color: #b1b1b1;
+    margin: auto;
+}
+.fot ul li a:hover {
+    color: white;
+    cursor: pointer;
+}
+footer .fot p{
+    font-size: 20px;
+}
+footer .fot .line {
+    border: #646464 solid 1px;
+    margin-bottom: 21px;
+}
